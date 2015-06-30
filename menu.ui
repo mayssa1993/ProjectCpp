@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu</class>
+ <widget class="QWidget" name="menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>228</width>
+    <height>416</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QCommandLinkButton" name="commandLinkButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>172</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>new child</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="commandLinkButton_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>172</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>delete</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="commandLinkButton_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>172</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>exit</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>commandLinkButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>menu</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>90</x>
+     <y>268</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>93</x>
+     <y>306</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
